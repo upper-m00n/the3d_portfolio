@@ -33,6 +33,7 @@ import songScout from "./songScout.png"
 import expenseTracker from "./expenseTracker.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import jobBoard from './jobBoard.png'
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   express,
   voidBlogs,
   songScout,
-  expenseTracker
+  expenseTracker,
+  jobBoard
 };

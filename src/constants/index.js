@@ -26,7 +26,7 @@ import {
     express,
     voidBlogs,
     songScout,
-    expenseTracker
+    jobBoard
   } from "../assets";
   
   export const navLinks = [
@@ -202,6 +202,27 @@ import {
   
   const projects = [
     {
+      name: "JobBoard- Job porta & AI resume builder",
+      description:"JobBoard platform using the MERN stack (MongoDB, Express, React, Node.js), supporting role-based access for job seekers and employers.AI-powered resume builder using OpenRouter and Puppeteer to generate styled PDF resumes. Implemented features like job search, application tracking, resume uploads via ImageKit, and real-time email notifications. Also added functionality for users to update or delete applications, and for employers to manage applicant status.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobBoard,
+      source_code_link: "https://github.com/upper-m00n/JobBoard",
+      app_url:"https://job-board-pied-eight.vercel.app/"
+    },
+    {
       name: "Void Blogs",
       description:
         "VoidBlogs is a platform where anyone can create, read, and engage with interesting blog posts. Whether you're an aspiring writer or a casual reader, VoidBlogs provides a space for everyone to share insights, ideas, and stories. From simple journaling to in-depth articles, it’s designed to inspire creativity and connect people!",
@@ -244,27 +265,7 @@ import {
       source_code_link: "https://github.com/upper-m00n/songScout",
       app_url:"https://song-scout-ashutosh.netlify.app/"
     },
-    {
-      name: "Expense Tracker",
-      description:"This React-based Expense Tracker helps users manage and track their income and expenses with ease. The app provides a simple, yet effective interface where users can add, view, and categorize their transactions. With a colorful, modern design, it offers a clear overview of total balance, income, and expenses.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: expenseTracker,
-      source_code_link: "https://github.com/upper-m00n/ExpenseTracker",
-      app_url:"https://expense-tracker-upper-m00n.vercel.app/"
-    },
+    
   ];
   
   export { services, technologies, experiences, projects };
