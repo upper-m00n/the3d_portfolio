@@ -34,6 +34,7 @@ import expenseTracker from "./expenseTracker.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import jobBoard from './jobBoard.png'
+import GhostNote from './GhostNote.png'
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   voidBlogs,
   songScout,
   expenseTracker,
-  jobBoard
+  jobBoard,
+  GhostNote
 };

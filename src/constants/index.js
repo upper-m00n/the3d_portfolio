@@ -26,7 +26,8 @@ import {
     express,
     voidBlogs,
     songScout,
-    jobBoard
+    jobBoard,
+    GhostNote
   } from "../assets";
   
   export const navLinks = [
@@ -221,6 +222,27 @@ import {
       image: jobBoard,
       source_code_link: "https://github.com/upper-m00n/JobBoard",
       app_url:"https://job-board-pied-eight.vercel.app/"
+    },
+    {
+      name: "GhostNote",
+      description:"GhostNote is a full-stack anonymous feedback platform built with Next.js, TypeScript, Tailwind CSS, and MongoDB. It features secure user authentication with NextAuth.js, email verification via Resend, and form validation using Zod. Users can toggle whether they’re accepting messages, while anyone (even guests) can send them anonymous feedback. Integrated GenAI helps generate thoughtful question prompts, enhancing the feedback experience. Authenticated users can view and delete messages through a clean, modern UI built with shadcn/ui.",
+        tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: GhostNote,
+      source_code_link: "https://github.com/upper-m00n/GhostNote",
+      app_url:"https://ghost-note-theta.vercel.app/"
     },
     {
       name: "Void Blogs",
