@@ -117,10 +117,6 @@ import {
       icon: postgres,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
