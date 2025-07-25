@@ -7,6 +7,8 @@ import CanvasLoader from '../Loader';
 const Computers = ({isMobile}) => {
   const computer = useGLTF('./desktop_pc/scene.gltf');
 
+  
+
   return (
     <mesh>
       {/* Using lower-case JSX element for Three.js light */}
