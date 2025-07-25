@@ -21,6 +21,9 @@ import {
     shopify,
     jobit,
     tripguide,
+    postgres,
+    prisma,
+    nextjs,
     threejs,
     c,
     express,
@@ -78,12 +81,20 @@ import {
       icon: javascript,
     },
     {
+      name: "Typescript",
+      icon: typescript,
+    },
+    {
       name: "C++",
       icon: c,
     },
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "Redux Toolkit",
@@ -102,6 +113,10 @@ import {
       icon: mongodb,
     },
     {
+      name: "postgres",
+      icon: postgres,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -113,10 +128,13 @@ import {
       name: "Express JS",
       icon: express,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    {
+      name: "prisma",
+      icon: prisma,
+    },
+    
+    
+   
   ];
   
   const experiences = [

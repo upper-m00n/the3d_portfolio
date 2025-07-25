@@ -22,6 +22,9 @@ import typescript from "./tech/typescript.png";
 import c from "./tech/c++.png"
 import express from "./tech/express.png"
 import threejs from "./tech/threejs.svg";
+import postgres from './tech/postgres.png'
+import prisma from './tech/prisma.png'
+import nextjs from './tech/next.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -57,6 +60,9 @@ export {
   redux,
   tailwind,
   typescript,
+  postgres,
+  prisma,
+  nextjs,
   threejs,
   meta,
   shopify,
