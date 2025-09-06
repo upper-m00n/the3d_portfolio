@@ -30,7 +30,8 @@ import {
     voidBlogs,
     songScout,
     jobBoard,
-    GhostNote
+    GhostNote,
+    nexlearn
   } from "../assets";
   
   export const navLinks = [
@@ -216,6 +217,27 @@ import {
   // ];
   
   const projects = [
+    {
+      name: "NexLearn GenAI - LMS",
+      description:"NexLearn-GenAI is a full-stack, AI-powered e-learning platform designed to provide a seamless and intelligent educational experience for both trainers and students.Comprehensive tools to create and manage courses, while students can easily search, enroll, and track their progress through a secure interface. What sets NexLearn apart is its deep integration of Generative AI, offering automated lecture transcripts, summaries, and quizzes, along with an innovative tool for trainers to instantly generate course thumbnails.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nexlearn,
+      source_code_link: "https://github.com/upper-m00n/NexLearn_LMS",
+      app_url:"https://nex-learn-lms.vercel.app/"
+    },
     {
       name: "JobBoard- Job porta & AI resume builder",
       description:"JobBoard platform using the MERN stack (MongoDB, Express, React, Node.js), supporting role-based access for job seekers and employers.AI-powered resume builder using OpenRouter and Puppeteer to generate styled PDF resumes. Implemented features like job search, application tracking, resume uploads via ImageKit, and real-time email notifications. Also added functionality for users to update or delete applications, and for employers to manage applicant status.",
